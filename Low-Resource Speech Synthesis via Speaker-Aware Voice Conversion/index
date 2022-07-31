@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Bare - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        
+        <!-- Page content-->
+        <div class="container">
+            <div class="text-center mt-5">
+                <h1 class="display-4">Low-Resource Speech Synthesis via Speaker-Aware Voice Conversion</h1>
+                <p class="lead">Institute of Electrical and Computer Engineering, Graduate Degree Program of Cybersecurity National Yang Ming Chiao Tung University, Taiwan</p>
+            </div>
+
+            <div class="mt-4">
+                <h2>Authors</h2>
+                <li>Li-Jen Yang :  <a href=""><u>lijen0918.ee10@nycu.edu.tw</u></a></li>
+                <li>I-Ping Yeh : <a href=""><u>ping629.cs10@nycu.edu.tw</u></a></li></li>
+                <li>Jen-Tzung Chien : <a href=""><u>jtchien@nycu.edu.tw</u></a></li></li>
+            </div>
+
+            <div class="mt-4"></div>
+                <h2>Abstract</h2>
+                <p style="text-align:justify;">Speech synthesis has been successfully exploited for domain mapping from text to speech where high-resource languages, such as English, German and Chinese, have been well studied and learned from a large amount of text-speech paired data in public-domain corpora. However, developing speech synthesis under low-resource languages is challenging for speech communication in local regions since the collection of training data is expensive. In particular, the speaker-aware sound generation of a low-resource language is sometimes very crucial due to culture or family concerns. Such a problem is increasingly difficult by the reason of very limited speaker-specific data. This paper presents a speaker-aware speech synthesis under a low-resource language based on an encoder-decoder framework using transformer. Knowledge transfer is performed via a speaker-aware voice conversion through first learning a pre-trained transformer from multi-speaker data of a low-resource language and then fine-tuning the transformer to a target speaker with very limited speaker-specific utterance-based features. The experiments on Taiwanese speech synthesis are evaluated to show the merit of the proposed voice-conversed speaker-aware transformer in terms of sound fluency and Mel cepstral distortion.</p>
+            </div>
+
+
+            
+
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
